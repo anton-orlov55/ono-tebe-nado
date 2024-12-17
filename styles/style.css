@@ -1,1 +1,60 @@
 /* место для вашего кода */
+
+body{
+  display: grid;
+
+  max-width: 1100px;
+  min-height: 100%;
+  
+}
+
+.header{
+ 
+
+}
+.nav{
+
+}
+
+.cover{
+  background-color:rgb(0, 0, 0, 0.6);
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  width: 1100px;
+  height: 757px;
+}
+.color{
+  background-color:rgb(0, 0, 0, 0.6);
+  background-size: cover;
+  background-position: center;
+  width: 1100px;
+  height: 757px; 
+}
+
+.content__image-item {
+  width: 100%;
+}
+.about{
+
+}
+
+.cover{
+
+}
+
+.description{
+
+}
+.button{
+
+}
+
+.column-1{
+
+}
+
+.column-2{
+
+}
