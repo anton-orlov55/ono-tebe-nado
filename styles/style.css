@@ -382,11 +382,11 @@ padding: 64px 46px 0px 45px;
   width: 240px;
   height: 98px;
   list-style-type: none;
-  margin: 2px 0px 0px 64px;
+  margin: 3px 0px 0px 64px;
   letter-spacing: 1px;
   line-height: 20.9px;
   text-align:center;
-  text-underline-offset: 4.6px;
+  text-underline-offset: 3.6px;
 }
 
 .social-footer{
