@@ -21,7 +21,13 @@ ul,
 ol,
 li,
 blockquote 
-.color{
+.color
+.cover
+.lots
+.article
+.text-agent
+.see_more
+{
   margin: 0;
   padding: 0;
 }
