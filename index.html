@@ -9,134 +9,152 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body></body>
-</html>
-<body>
+ <body>
   <header class="header">
-    <ul class="nav" >
-      <li ><article>главная</article></li>
-      <li class="nav-line"><a href="#about"><article >посмотреть лоты</article></a></li>
-      <li class="nav-line"><a href="#about"><article>об аукционе</article></a></li>
-    </ul>
+    <nav >
+      <ul class="navigation">
+        <li> <a href="#about" class="none-line">главная</a></li>
+        <li class="nav-line"><a href="#about">посмотреть лоты</a></li>
+        <li class="nav-line"><a href="#about">об аукционе</a></li>
+      </ul>
+    </nav>
     <img src="./images/logo-black.svg"
-    alt=""
+    alt="Логотип с словами ОНО ТЕБЕ НАДО"
     class="logo-top"
     />
-    <ul class="contacts">
-      <li class="contacts-line-number"><a href="#about"><article>+9 999 555 5555</article></a></li>
-      <li class="contacts-line-email"><a href="#about"><article>info@sobaka.ge</article></a></li>
-      <li ><article>наб. Принсенграхт 263- 265, Амстердам</article></li>
-    </ul>
-  </header>
+    <address >
+      <ul class="address">
+      <li class="address-line"><a href="tel:+99995555555" >+9 999 555 5555</a></li>
+      <li class="address-line"><a href="#mailto:info@sobaka.ge">info@sobaka.ge</a></li>
+      <li >наб. Принсенграхт 263- 265, Амстердам</li>
+     </ul>
+    </address>
+   </header>
  <main>
-  <cover class="cover">
-      <cover-overlay class="cover-overlay"></cover-overlay>
+  <section class="cover cover-url">
+      <div class="cover overlay"></div>
       <h1 class="cover_text">
-        <span class="word-left">ОНO</span>
-        <span class="word-centr">ТЕБЕ</span>
-        <span class="word-right">НАДО</span>
+        <span class="word-left">Оно</span>
+        <span class="word-centr">Тебе</span>
+        <span class="word-right">Надо</span>
       </h1>
-      <description class="description">
-        <description-title class="description-title">
-         Аукцион вещей, в которые никто не верил</span> 
-        </description-title>
-        <buttons class="buttons">
+      <div class="description">
+        <p class="description-title">
+         Аукцион вещей, в которые никто не верил
+        </p>
+        <button class="button">
           Сделать ставку
-        </buttons>
-      </description>
-    </cover>
-  <lots class="lots">
-    <lots-title class="lots-title">
+        </button>
+      </div>
+  </section>
+  <section class="lots">
+    <h2 class="lots-title">
       ЛОТЫ
-    </lots-title>
-      <ul class="article">
-        <li class="article-cinema" >
-         <overlay class="overlay"></overlay>
-          <h3 class="h3">
-            <a class="link" href="#about">Фильм режиссёра, который бросил киношколу</a>
-          </h3>
-          <text-cinema class="text-cinema">
-            Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-          </text-cinema>
+    </h2>
+      <ul class="card-lots">
+        <li>
+          <a href="#about" class="none-line">
+            <article class="card card-url-cinema">
+              <div class="card overlay"></div>
+              <h3 class="h3">
+                Фильм режиссёра, который бросил киношколу
+              </h3>
+              <p class="text-lots">
+              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </p>
+            </article>  
+          </a>
         </li>
-        <li class="article-agent">
-          <overlay class="overlay"></overlay>
-          <h3 class="h3">
-           <a class="link" href="#about">Книга, где описан один скучный день из жизни рекламного агента</a>
-          </h3>
-          <text-agent class="text-agent" >
-            Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-          </text-agent>
+        <li>
+          <a href="#about" class="none-line">
+            <article class="card card-url-agent">
+              <div class="card overlay"></div>
+              <h3 class="h3">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </h3>
+              <p class="text-lots">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+              </p>
+            </article>  
+          </a>
         </li>
-        <li class="article-picture">
-          <overlay class="overlay"></overlay>
-          <h3 class="h3">
-            <a class="link" href="#about">Картина, которую повторит даже 5-летний сын маминой подруги</a>
-          </h3>
-          <text-picture class="text-picture">
-            Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
-          </text-picture>
+        <li>
+          <a href="#about" class="none-line">
+            <article class="card card-url-picture">
+              <div class="card overlay"></div>
+              <h3 class="h3">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </h3>
+              <p class="text-lots">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+              </p>
+            </article>  
+          </a>
         </li>
       </ul>
-      <see_more class="see_more">
+      <a href="#about" class="see_more">
         посмотреть больше
-      </see_more>
-  </lots>
-  <about class="about">
-    <column-logo class="column-logo">
-        <circle class="circle">
+      </a>
+  </section>
+  <section class="about">
+    <div class="column-logo">
+        <div class="circle">
         <img 
           src="./images/logo-white.svg"
-          alt=""
+          alt="Логотип с словами ОНО ТЕБЕ НАДО"
           class="logo-circle"
          />
-         </circle>
-     </column-logo>
-    <column-description class="column-description">
-      <h1 class="column-description-title">Об Аукционе</h1>
-      <p class="p-up">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-      <p class="p-down">Слишком сложные или, наоборот, слишком простые. 
-        Опережающие своё время. В пух и прах растерзанные критиками. 
+         </div>
+     </div>
+    <div class="column-description">
+      <h2 class="column-description-title">Об Аукционе</h2>
+      <p class="column-description-text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+      <p class="column-description-text">Слишком сложные или, наоборот, слишком простые. 
+        Опережающие<br> своё время. В пух и прах растерзанные критиками. 
         Непринятые и непонятые. Когда-то они казались просто неудачными. 
         Но, несмотря <br>на критику, кажущуюся простоту или сложность, 
         сейчас без этих лотов невозможно представить современную культуру. 
         Когда в эти вещи не верил никто, продолжали верить их создатели. 
-        И сейчас эти лоты стали культовыми. </p>
+        И сейчас эти лоты<br>стали культовыми. </p>
 
-    </column-description>
-  </about>
-</main>
+      </div>
+  </section>
+ </main>
   <footer class="footer">
-    <ul class="contacts-footer">
-      <li class="contacts-line-number"><a href="#about"><article>+9 999 555 5555</article></a></li>
-      <li class="contacts-line-email"><a href="#about"><article>info@sobaka.ge</article></a></li>
-      <li ><article>наб. Принсенграхт 263- 265,<br> Амстердам</article></li>
-    </ul>
-    <ul class="nav-footer" >
-      <li ><article>главная</article></li>
-      <li ><a href="#about"><article >посмотреть лоты</article></a></li>
-      <li ><a href="#about"><article>об аукционе</article></a></li>
-    </ul>
+    <address >
+      <ul class="address contacts-footer">
+        <li class="address-line"><a href="tel:+99995555555" >+9 999 555 5555</a></li>
+        <li class="address-line"><a href="#mailto:info@sobaka.ge">info@sobaka.ge</a></li>
+        <li >наб. Принсенграхт 263- 265,<br> Амстердам</li>
+      </ul>
+    </address>
+    <nav>
+      <ul class="navigation-footer" >
+        <li> <a href="#about" class="none-line">главная</a></li>
+        <li> <a href="#about">посмотреть лоты</a></li>
+        <li> <a href="#about">об аукционе</a></li>
+      </ul>
+    </nav>
     <ul class="social-footer" >
-      <li>
+      <li><a href="#about">
         <img src="./images/yt.svg"
-        alt=""
+        alt="Логотип ютуб"
         class="social-footer-logo"/>
-      </li>
+        </a>
+        </li>
       <li ><a href="#about">
         <img src="./images/vk.svg"
-        alt=""
+        alt="Логотип Вконтакте"
         class="social-footer-logo"/>
-      </a></li>
+       </a>
+      </li>
       <li ><a href="#about">
         <img src="./images/pinterest.svg"
-        alt=""
+        alt="Логотип Пинтерест"
         class="social-footer-logo"/>
-      </a></li>
+       </a>
+      </li>
     </ul>
-
-
-
-
   </footer>
-</body>
+ </body>
+</html>
