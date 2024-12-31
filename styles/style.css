@@ -1,9 +1,7 @@
 /* место для вашего кода */
 
-
-
-.header{
-  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+.header {
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-weight: normal;
   font-size: 18px;
   display: grid;
@@ -12,142 +10,135 @@
   margin: 0px 0px 96px 0px;
 }
 
-.navigation{
+.navigation {
   max-width: 391.48px;
   width: 100%;
-  letter-spacing: 0px;
   display: grid;
-  grid-template-columns: repeat(3,25% 47% 28%);
+  grid-template-columns: repeat(3, 25% 47% 28%);
   list-style-type: none;
   margin: 134px 0px 0px 50px;
-  }
+}
 
-.none-line{
+.header-link-active {
   text-decoration: none;
-  }
+}
 
-.nav-line{
+.nav-line {
   list-style: circle;
   text-decoration: underline solid rgb(0, 0, 0) 0.5px;
   text-underline-offset: 3px;
-  letter-spacing: 0px;
 }
 
-.logo-top{
+.logo-top {
   width: 145px;
   height: 105px;
   margin: 92px 0px 0px 36px;
   padding: 0px 0px 0px 2px;
 }
 
-.address{
-  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+.address {
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-weight: normal;
   font-size: 18px;
   width: 240px;
   list-style-type: none;
   margin: 97px 0px 0px 40px;
-  letter-spacing: 0px;
   line-height: 1.3em;
- }
+  font-style: normal;
+}
 
-  .address-line{
+.address-format {
   text-decoration: underline solid rgb(0, 0, 0) 0.5px;
   text-underline-offset: 4px;
   padding: 0px 0px 0px 0px;
   text-decoration: none;
 }
 
-.cover{
+.cover {
   margin: 0px;
   display: grid;
   width: 1100px;
   min-height: 757px;
-}
-
-.cover-url{
   background-image: url(../images/cover.jpg);
   background-size: cover;
-  background-position: center; 
+  background-position: center;
+  position: relative;
 }
 
-.overlay{
-  background-color:rgba(0, 0, 0, 0.6);
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   z-index: 0;
+  inset: 0;
 }
 
-.cover_text{
+.cover_text {
   display: grid;
-  width: 1000px; 
+  width: 1000px;
   margin: 165px 50px 0px 50px;
   grid-template-columns: repeat(3, 1fr);
-  color: #FFFFFF;
-  font-family: 'Raleway','Arial', 'Helvetica', sans-serif;
+  color: #ffffff;
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 100px;
   z-index: 1;
 }
 
-.word-left{
+.word-left {
   width: 286px;
   grid-column: 1;
   grid-column-end: start;
   letter-spacing: 30px;
-  line-height:115px;
+  line-height: 115px;
   text-transform: uppercase;
 }
 
-.word-centr{
+.word-centr {
   width: 339px;
   grid-column: 2;
   grid-column-end: start;
   letter-spacing: 30px;
   line-height: 115px;
-  align-self: top;
   margin: 0px 0px 0px 24.6px;
   text-transform: uppercase;
 }
 
-.word-right{
+.word-right {
   width: 387px;
   grid-column: 3;
   letter-spacing: 30px;
-  line-height:115px;
+  line-height: 115px;
   margin: 0px 0px 10px 1px;
   text-transform: uppercase;
-  align-self: top;
 }
 
-.description{
+.description {
   display: flex;
   color: #ffffff;
   z-index: 1;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.description-title{
+.description-title {
   color: #ffffff;
-  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-weight: normal;
   font-size: 22px;
   z-index: 1;
   line-height: 28px;
   text-transform: uppercase;
-  margin: 86px 50px 0px 50px ;
+  margin: 86px 50px 0px 50px;
   word-spacing: 18.6px;
-  align-self: top;
 }
 
-.button{
+.button {
   width: 256px;
   background-color: transparent;
   height: 51px;
   color: #ffffff;
-  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-weight: normal;
   font-size: 22px;
-  letter-spacing: 0%;
   z-index: 1;
   line-height: 28px;
   text-transform: uppercase;
@@ -157,101 +148,99 @@
   align-self: center;
 }
 
-.lots{
+.lots {
   display: grid;
   width: 1052px;
   margin: 181px 24px 120px 24px;
 }
 
-.lots-title{
+.lots-title {
   color: black;
-  font-family: 'Raleway','Arial', 'Helvetica', sans-serif;
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 40px;
   width: 121px;
   margin: 0px 0px 0px 40px;
+  text-transform: uppercase;
 }
 
-.card-lots{
+.card-lots {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 23px;
   margin: 26px 0px 0px 0px;
-  font-family: 'Raleway','Arial', 'Helvetica', sans-serif;
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-size: 22px;
   line-height: 120%;
-  letter-spacing: 0%;
   color: #ffffff;
   row-gap: 10px;
 }
 
-.h3{
+.card-title {
   text-transform: uppercase;
-  font-family: 'Raleway','Arial', 'Helvetica', sans-serif;
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 22px;
-  letter-spacing: 0px;
   z-index: 1;
   margin: 48px 40px 0px 40px;
   text-decoration: none;
   text-decoration: underline solid rgb(255, 255, 255) 0.5px;
   text-underline-offset: 2.4px;
-} 
+}
 
-.card{
+.card {
   display: grid;
   background-size: cover;
   background-position: center;
   width: 334px;
   min-height: 596px;
+  position: relative;
 }
 
-.card-url-cinema{
+.card-url-cinema {
   background-image: url(../images/card-lot-01.jpg);
- }
+}
 
-.card-url-agent{
+.card-url-agent {
   background-image: url(../images/card-lot-02.jpg);
- }
+}
 
-.card-url-picture{
+.card-url-picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.text-lots{
-  font-family: 'Raleway','Arial', 'Helvetica', sans-serif;
+.text-lots {
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0%;
   z-index: 1;
   align-content: end;
   padding: 0px 40px 48px 40px;
   text-decoration: none;
 }
 
-.see_more{
-  font-family: 'Raleway','Arial', 'Helvetica', sans-serif;
+.see_more {
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0px;
   padding: 31.2px 0px 0px 40px;
   text-decoration: underline solid rgb(0, 0, 0) 0.5px;
   text-underline-offset: 4.6px;
 }
 
-.about{
+.about {
   display: grid;
   grid-template-columns: repeat(2, 383.5px 716.5px);
   width: 1100px;
 }
 
-.column-logo{
+.column-logo {
   display: grid;
 }
 
-.circle{
+.circle {
   width: 240px;
   height: 240px;
   background-color: #000000;
@@ -260,51 +249,51 @@
   padding: 64px 46px 0px 45px;
 }
 
-.column-description{
+.column-description {
   display: grid;
 }
 
-.column-description-title{
-  font-family: 'Raleway','Arial', 'Helvetica', sans-serif;
+.column-description-title {
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
   margin: 134px 10px 74px 0px;
 }
 
-.column-description-text{
-  font-family: 'Raleway','Arial', 'Helvetica', sans-serif;
+.column-description-text {
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   font-weight: normal;
   font-size: 20px;
-  padding: 0px 26px 0px 0px;
+  padding: 0px 28px 0px 0px;
   margin: 25px 0px 0px 0px;
 }
 
-.footer{
+.footer {
   width: 1100px;
-  margin: 180px 0px 0px 0px;
+  margin: 180px 0px 82px 0px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.contacts-footer{
+.contacts-footer {
   padding: 0px 0px 0px 40px;
   margin: 1px 10px 10px 11px;
   white-space: nowrap;
 }
 
-.navigation-footer{
+.navigation-footer {
   width: 240px;
   list-style-type: none;
   margin: 3px 0px 0px 64px;
   letter-spacing: 1px;
   line-height: 20.5px;
-  text-align:center;
+  text-align: center;
   text-underline-offset: 3.6px;
   text-transform: none;
 }
 
-.social-footer{
+.social-footer {
   width: 240px;
   display: flex;
   list-style-type: none;
@@ -312,6 +301,6 @@
   margin: 2px 0px 0px 77px;
 }
 
-.social-footer-logo{
+.social-footer-logo {
   width: 48px;
 }
