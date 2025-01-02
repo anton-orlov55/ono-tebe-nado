@@ -197,6 +197,10 @@
   position: relative;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .card-url-cinema {
   background-image: url(../images/card-lot-01.jpg);
 }
@@ -291,6 +295,10 @@
   text-align: center;
   text-underline-offset: 3.6px;
   text-transform: none;
+}
+
+.footer-link-active {
+  text-decoration: none;
 }
 
 .social-footer {
